@@ -40,6 +40,6 @@ if __name__ == "__main__":
     GPIO.setup("USR3", GPIO.OUT)
     while True:
         GPIO.output("USR3", GPIO.HIGH)
-        time.sleep(1)
+        time.sleep(0.1)
         GPIO.output("USR3", GPIO.LOW)
-        time.sleep(1)
+        time.sleep(0.1)
